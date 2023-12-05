@@ -115,10 +115,6 @@ body {
         margin-top: -5vh;
     }
 
-    .paddingInf {
-        height: 19vh;
-    }
-
 
 }
 
@@ -207,14 +203,11 @@ body {
         margin-top: -5vh;
     }
 
-    .paddingInf {
-        height: 19vh;
-    }
 } 
 
 
 .backgroundSection1 {
-    background-image: url('image-section-1.png');
+    background-image: url('background_section1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
