@@ -9,6 +9,17 @@ body {
     display: table;
 }
 
+
+.backgroundSection1 {
+    margin: 0;
+    padding: 0;
+    background-image: url('background_section1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -210,6 +221,7 @@ body {
 .mainBackground {
     background: black;
 }
+
 
 /* .header {
     padding: 3vh;
