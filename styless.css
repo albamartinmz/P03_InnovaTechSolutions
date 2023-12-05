@@ -213,8 +213,12 @@ body {
 } 
 
 
-.mainBackground {
-    background: black;
+.backgroundSection1 {
+    background-image: url('image-section-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 /* .header {
