@@ -48,9 +48,8 @@ body {
         align-items: center;
     }
     
-    .right {
+    .flex {
         display: flex;
-        justify-content: space-around;
         align-items: center;
         /* margin-right: 1vw; */
     }
