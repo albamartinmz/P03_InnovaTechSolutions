@@ -267,3 +267,31 @@ body {
     width: 50%;
     background-color: white;
 } */
+
+
+.blueBackground {
+    background: #000033;
+    margin-top: -5vh;
+}
+
+.thanksText {
+    color: #1565C0;
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+/* Estilo para el texto blanco */
+.white-text {
+    color: #fff; 
+}
+
+/* Estilo para el texto amarillo */
+.yellow-text {
+    color: #FBC02D; 
+}
+
+
+
