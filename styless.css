@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .header {
+        padding: 2vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background: black;
+    }
+
+    .mainPage {
+        padding: 5vh;
+    }
+
+    .left {
+        display: flex;
+        justify-content: left;
+        margin-left: 1vw;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-right: 1vw; */
+    }
+
+    .contactButton {
+        background-color: #FBC02D;
+        color: black;
+        font-family: "Roboto";
+        font-size: 0.7em;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border: 0px;
+        padding: 1.5vh 3vw;
+        border-radius: 10px;
+    
+    }
+
+    .navBar {
+        margin: 0vh 7vw;
+        color: #FBC02D;
+        /* font-weight: ; */
+        font-family: 'Roboto'
+
+    }
+
+    .containerImg {
+       position: relative;
+    }
+
+
+
+    .logo {
+        height: 9vh;
+        width: 25vw;
+    }
+
+    .imgCentral {
+        height: 60vh;
+        width: 70vw;
+    }
+
+    .language {
+        color: #FBC02D;
+        font-family: "Roboto";
+    }
+
+    .textoSuperpuesto {
+        position: absolute;
+        color: white;
+        font-family: "Nunito";
+        font-weight: 900;
+        text-align: center;
+        font-size: 3.5em;
+        /* line-height: 1.1; */
+        margin-top: 0vh;
+    }
+
+    .presentText {
+        color: white;
+        font-family: "Roboto";
+        text-align: center;
+        margin-top: -5vh;
+    }
+
+    .paddingInf {
+        height: 19vh;
+    }
+
+
+}
+
+
+  @media only screen and (max-width: 768px) { 
+    /*For mobile phone*/
+    .col-1 {width: 25%;}
+    .col-2 {width: 50%;}
+    .col-3 {width: 75%;}
+    .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 100%;}
+
+    .header {
+        padding: 2vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background: black;
+    }
+
+    .navBar {
+        /* margin: 0vh 7vw; */
+        display: flex;
+        color: #FBC02D;
+        /* font-weight: ; */
+        font-family: 'Roboto'
+    }
+
+    .logo {
+        height: 9vh;
+    }
+
+    .contactButton {
+        background-color: #FBC02D;
+        color: black;
+        font-family: "Roboto";
+        font-size: 0.7em;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border: 0px;
+        padding: 1.5vh 3vw;
+        border-radius: 10px;
+    
+    }
+
+    /* .mainPage {
+        padding: 32vh;
+    } */
+
+    .containerImg {
+        position: relative;
+    }
+
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .language {
+        color: #FBC02D;
+        font-family: "Roboto";
+    }
+
+    .textoSuperpuesto {
+        position: absolute;
+        color: white;
+        font-family: "Nunito";
+        font-weight: 900;
+        text-align: center;
+        font-size: 3.5em;
+        /* line-height: 1.1; */
+        margin-top: 0vh;
+    }
+
+    .presentText {
+        color: white;
+        font-family: "Roboto";
+        text-align: center;
+        margin-top: -5vh;
+    }
+
+    .paddingInf {
+        height: 19vh;
+    }
+} 
+
+
+.mainBackground {
+    background: black;
+}
+
+/* .header {
+    padding: 3vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: yellow;
+} */
+
+/* .mainPage {
+    padding: 19.5vh;
+} */
+
+/* .box {
+    background: yellow;
+    padding: 1vh 0vw;
+    margin: 0vh 1vw;
+} */
+
+/* .left {
+    display: flex;
+    justify-content: left;
+    margin-left: 1vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    margin-right: 1vw;
+} */
+
+/* .contactButton {
+    background-color:aqua;
+    border: 0px;
+    padding: 1.5vh 3vw;
+    border-radius: 35px;
+
+} */
+
+.pointer {
+    cursor: pointer;
+}
+
+/* .navBar {
+    margin: 0vh 7vw;
+} */
+
+/* .containerImg {
+    height: 50vh;
+    width: 50%;
+    background-color: white;
+} */
+
+
+/* section 3 */
+
+* {
+    background-color: black;
+}
+
+.yellow {
+    color: #FBC02D
+}
+
+h2 {
+    color: #1565C0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #FCFCFD;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 111.111% */
+}
+
+h2, h3 {
+    margin: 0;
+    justify-content: center;
+}
+
+/* cards section 3 */
+
+.cards-section-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card {
+    border-radius: 7.789px;
+    border-top: 12px solid #880E4F;
+    background: white;
+    box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+    height: 45vh;
+    width: 70%;
+}
+
+.icon-card {
+    background-color: white;
+}
+.arrow {
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+}
