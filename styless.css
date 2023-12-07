@@ -216,10 +216,16 @@ body {
         display: none; /* Oculta el menú de navegación principal en dispositivos más pequeños */
     }
 
+    /* #toggleMenu {
+        display: none;
+    } */
+
+  }
+
     #toggleMenu:checked + .burgerMenuIcon + .navBar {
         display: flex;
         flex-direction: column;
-        background-color: #f8f9fa; /* Cambia al color que desees */
+        background-color: #f8f9fa; 
         position: absolute;
         top: 60px;
         right: 0;
@@ -238,9 +244,14 @@ body {
         margin-bottom: 10px;
     }
 
+    .burgerMenuIcon {
+        font-size: 1.5em;
+        cursor: pointer;
+    }
 
 
-} 
+
+
 
 
 .backgroundSection1 {
