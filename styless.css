@@ -235,7 +235,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+        margin-top: 10px; 
     }
 
     .language {
