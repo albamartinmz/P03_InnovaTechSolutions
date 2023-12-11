@@ -289,7 +289,6 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     justify-content: center;
@@ -313,30 +312,47 @@ body {
     display: grid;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     line-height: normal;
 }
 
-.card {
+.card-1 {
     display: flex;
     flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
     border-radius: 7.789px;
     border-top: 12px solid #880E4F;
     background: white;
     box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
-    width: 60%;
+    width: 80%;
     height: 60%;
+    margin: 5%;
 }
 
 .pair-cards {
     display: flex;
 }
-
 .icon-card {
+    width: 20%;
+    max-width: 100%; 
+    height: auto;
     background-color: white;
 }
+
+.button-arrow {
+    display: flex;
+    align-items: flex-end;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
 .arrow {
     height: 8vh;
     width: 8vh;
