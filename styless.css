@@ -269,7 +269,9 @@ body {
 } */
 
 
-.blueBackground {
+/* Section 2 */
+
+.section2__background {
     background: #000033;
     margin-top: -5vh;
 }
@@ -280,82 +282,77 @@ body {
     font-size: 1em;
     font-weight: bold;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 3%;
+}
+
+.who-we-areText {
+    font-family: "Nunito";
+    font-weight: 900;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
 }
 
 /* Estilo para el texto blanco */
-.white-text {
+.who-we-areText--white {
     color: #fff; 
 }
 
 /* Estilo para el texto amarillo */
-.yellow-text {
+.who-we-areText--yellow {
     color: #FBC02D; 
 }
 
-
-
-/* section 3 */
-
-* {
-    background-color: black;
-}
-
-.yellow {
-    color: #FBC02D
-}
-
-h2 {
-    color: #1565C0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h3 {
-    color: #FCFCFD;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 40px; /* 111.111% */
-}
-
-h2, h3 {
-    margin: 0;
-    justify-content: center;
-}
-
-/* cards section 3 */
-
-.cards-section-3 {
+.section2__container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+ }
+ 
+.descriptiveText {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.image-section2 {
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 100%;
+    object-fit: contain; /* para ajuste de la imagen al tamaño del contenedor*/
+}
+
+.infoButton {
+    background-color: #FBC02D;
+    width: 5%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    color: black;
+    font-family: "Roboto";
+    font-size: 0.7em;
     font-weight: 700;
-    line-height: normal;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border: 0%;
+    padding: 1.5vh 3vw;
+    border-radius: 10px;
 }
 
-.card {
-    border-radius: 7.789px;
-    border-top: 12px solid #880E4F;
-    background: white;
-    box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
-    height: 45vh;
-    width: 70%;
+.section2__icons {
+    color:#fff;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-.icon-card {
-    background-color: white;
-}
-.arrow {
-    height: 8vh;
-    width: 8vh;
-    background-color: white;
-}
+
