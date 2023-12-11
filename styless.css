@@ -9,6 +9,11 @@ body {
     display: table;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
