@@ -269,43 +269,48 @@ body {
 } */
 
 
+
+
 /* section 3 */
 
-
+.section-3 {
+    background-image: url('assets/background_section3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
 
 .yellow {
     color: #FBC02D
 }
 
-h2 {
+.little-title {
     color: #1565C0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    justify-content: center;
 }
 
-h3 {
-    color: #FCFCFD;
+.title {
+    color: #FFFFFF;
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    font-size: 36px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 40px; /* 111.111% */
-}
-
-h2, h3 {
-    margin: 0;
+    line-height: 40px;
+    padding: 2% 2%;
     justify-content: center;
 }
 
 /* cards section 3 */
 
 .cards-section-3 {
-    display: flex;
+    display: grid;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
@@ -315,12 +320,18 @@ h2, h3 {
 }
 
 .card {
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 7.789px;
     border-top: 12px solid #880E4F;
     background: white;
     box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
-    height: 45vh;
-    width: 70%;
+    width: 60%;
+    height: 60%;
+}
+
+.pair-cards {
+    display: flex;
 }
 
 .icon-card {
@@ -331,3 +342,4 @@ h2, h3 {
     width: 8vh;
     background-color: white;
 }
+
