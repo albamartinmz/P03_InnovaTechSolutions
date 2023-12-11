@@ -143,10 +143,6 @@ body {
         background: black;
     }
 
-    .marginTop {
-        margin-top: 10vh;
-    }
-
     .navBar {
         /* margin: 0vh 7vw; */
         display: flex;
@@ -203,10 +199,9 @@ body {
         font-family: "Nunito";
         font-weight: 900;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 1.7em;
         /* line-height: 1.1; */
         margin-top: 0vh;
-        margin-right: 10vw;
     }
 
     .presentText {
