@@ -321,6 +321,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -336,6 +337,12 @@ body {
 .pair-cards {
     display: flex;
 }
+
+.text-card {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+}
+
 .icon-card {
     width: 20%;
     max-width: 100%; 
@@ -349,13 +356,11 @@ body {
     border: none;
     background: none;
     cursor: pointer;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
 }
 
 .arrow {
-    height: 8vh;
-    width: 8vh;
+    width: 20%;
     background-color: white;
 }
 
