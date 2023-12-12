@@ -279,3 +279,69 @@ body {
     width: 50%;
     background-color: white;
 } */
+
+
+/* section 3 */
+
+* {
+    background-color: black;
+}
+
+.yellow {
+    color: #FBC02D
+}
+
+h2 {
+    color: #1565C0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #FCFCFD;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 111.111% */
+}
+
+h2, h3 {
+    margin: 0;
+    justify-content: center;
+}
+
+/* cards section 3 */
+
+.cards-section-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card {
+    border-radius: 7.789px;
+    border-top: 12px solid #880E4F;
+    background: white;
+    box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+    height: 45vh;
+    width: 70%;
+}
+
+.icon-card {
+    background-color: white;
+}
+.arrow {
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+}
