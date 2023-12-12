@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap">
+    <script src="script.js"></script>
 </head>
 <body>
     <section class="backgroundSection1"> <!--Página inicial-->
@@ -17,21 +18,20 @@
             <div class="col-8">
                 <input type="checkbox" id="toggleMenu" class="checkbox">
                 <label class="burgerMenuIcon col-3 center pointer" for="toggleMenu">&#9776;</label>
-                <div class="center navBar">
+                <div class="center navBar" id="navBar">
                     <p class="col-3 center pointer">Quiénes somos</p>
                     <p class="col-3 center pointer">Servicios</p>
                     <p class="col-3 center pointer">Equipo</p>
+                    <button class="right contactButton pointer desktopNone">Contáctanos</button>
                 </div>
             </div>
             <div class="col-2 flex languageContact">
                 <!-- <div class="language">ES/EN</div> -->
-                <!-- <input type="checkbox" id="toggleMenu" class="checkbox">
-                <label class="burgerMenuIcon col-3 center pointer" for="toggleMenu">&#9776;</label> -->
-                <button class="right contactButton pointer">Contáctanos</button>
+                <button class="right contactButton pointer mobileNone">Contáctanos</button>
             </div>
         </div>
 
-        <div class="row center">
+        <div class="row center marginTop">
             <div class="col-12 containerImg center">
                 <img src="assets/images/image-section-1.png" class="imgCentral" alt="Imagen central con forma de planeta con un anillo">
                 <h1 class="textoSuperpuesto">Bienvenidos a<br>InnovaTech Solutions</h1>
