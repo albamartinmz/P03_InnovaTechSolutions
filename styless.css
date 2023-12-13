@@ -12,6 +12,7 @@ body {
 .flex {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
   @media only screen and (min-width: 768px) {
@@ -297,6 +298,7 @@ body {
     font-weight: 700;
     line-height: normal;
     justify-content: center;
+    margin-top: 0vh;
 }
 
 .title {
@@ -307,7 +309,7 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: 40px;
-    padding: 2% 2%;
+    padding: 0% 2%;
     justify-content: center;
 }
 
@@ -334,9 +336,9 @@ body {
     border-top: 12px solid #880E4F;
     background: white;
     box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
-    width: 80%;
-    height: 60%;
-    margin: 5%;
+    width: 30vw;
+    height: 40vh;
+    margin: 3vh 5vw;
 }
 
 .pair-cards {
@@ -345,7 +347,7 @@ body {
 
 .text-card {
     font-family: 'Roboto', sans-serif;
-    font-size: 80%;
+    font-size: 1rem;
 }
 
 .icon-card {
@@ -368,4 +370,5 @@ body {
     width: 20%;
     background-color: white;
 }
+
 

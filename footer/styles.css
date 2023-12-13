@@ -1,0 +1,38 @@
+/* footer */
+
+* {
+    background-color: black;
+
+}
+.container-footer {
+    display: flex;
+    align-content:space-between;
+}
+
+.img-logo-footer {
+    width: 20vw;
+}
+
+.text-1-footer, .text-2-footer, .text-3-footer {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-footer {
+    color:#FBC02D
+}
+
+.title-footer .text-column-footer {
+    display: flex;
+}
+
+.line-footer {
+    line-height: normal;
+}
+.copyright {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
