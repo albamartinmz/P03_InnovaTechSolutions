@@ -322,6 +322,13 @@ body {
     align-items: center;
 }
 
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-right: 1vw; */
+}
+
 .section2__image {
     width: 90%;
     margin-bottom: 10%;
