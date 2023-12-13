@@ -273,7 +273,6 @@ body {
 
 .section2__background {
     background: #000033;
-    margin-top: -5vh;
 }
 
 .thanksText {
@@ -291,7 +290,6 @@ body {
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 3%;
 }
 
 /* Estilo para el texto blanco */
@@ -314,33 +312,32 @@ body {
     font-family: "Roboto";
     font-size: 0.8em;
     font-weight: 500;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 5%;
     margin-left: 15%;
     margin-right: 20%;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section2__image {
     width: 90%;
-    margin-top: 10%;
     margin-bottom: 10%;
-    margin-right: 100%;
+    margin-right: 90%;
     object-fit: contain; /* para ajuste de la imagen al tamaño del contenedor*/
 }
 
 .infoButton {
     background-color: #FBC02D;
-    width: 5%;
-    margin-top: 2%;
-    margin-bottom: 7%;
+    margin-top: -1%;
     color: black;
     font-family: "Roboto";
     font-size: 0.7em;
     font-weight: 700;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-    border: 0%;
     padding: 1.5vh 3vw;
     border-radius: 10px;
 }
@@ -349,10 +346,16 @@ body {
     color:#fff;
     font-family: "Roboto";
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    box-sizing: border-box;
+}
+
+.icon {
+    display: grid;
+    justify-items: auto;
+    margin: auto;
+}
+
+.icon1 {
+    width: 95%
 }
 
 
