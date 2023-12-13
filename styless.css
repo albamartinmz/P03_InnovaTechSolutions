@@ -289,3 +289,124 @@ body {
 .pointer {
     cursor: pointer;
 }
+
+/* section 4 */
+
+.section-4 {
+    background-image: url('./assets/background_section4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.text-section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.text-section-4 .yellow {
+    color: #FBC02D;
+}
+
+.text-section-4 h2 {
+    color: #1565C0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0.5%;
+    justify-content: center;
+}
+
+.text-section-4 h3 {
+    color: #FCFCFD;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    justify-content: center;
+    margin: 0%;
+
+}
+
+.text-section-4 p {
+    font-family: 'Roboto', sans-serif;
+    color: #FCFCFD;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.cards-section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-profile {
+    border-radius: 7.789px;
+    border: 3px solid #FBC02D;
+    background: white;
+    box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    text-align: center;
+    height: 560px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.card-profile .icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-profile .purple {
+    color: #880E4F;
+}
+
+.card-profile h2 {
+    color: #0F172A;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-style: bold;
+    justify-content: center;
+    margin: 0%;
+}
+
+.card-profile p {
+    font-family: 'Roboto', sans-serif;
+    font-style: regular;
+    font-size: 14px;
+    color: black;
+}
+
+.card-profile img {
+    height: 200px;
+    width: 200px;
+}
+
+.card-profile button {
+    background: none;
+    border: none;
+}
+
+.card-profile .icon-social {
+    height: 43px;
+    width: 45px;
+}
