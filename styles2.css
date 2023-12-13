@@ -77,6 +77,12 @@
     margin: 5%;
 }
 
+.card-profile .icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .card-profile .purple {
     color: #880E4F;
 }
@@ -101,12 +107,6 @@
 .card-profile img {
     height: 200px;
     width: 200px;
-}
-
-.card-profile .icon-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .card-profile button {
