@@ -9,17 +9,6 @@ body {
     display: table;
 }
 
-
-.backgroundSection1 {
-    margin: 0;
-    padding: 0;
-    background-image: url('background_section1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -135,10 +124,6 @@ body {
         display: none;
     }
 
-    .desktopNone {
-        display: none;
-    }
-
 
 }
 
@@ -162,6 +147,14 @@ body {
         margin-top: 10vh;
     }
 
+    .navBar {
+        /* margin: 0vh 7vw; */
+        display: flex;
+        color: #FBC02D;
+        /* font-weight: ; */
+        font-family: 'Roboto'
+    }
+
     .logo {
         height: 9vh;
     }
@@ -178,6 +171,10 @@ body {
         border-radius: 10px;
     
     }
+
+    /* .mainPage {
+        padding: 32vh;
+    } */
 
     .containerImg {
         position: relative;
@@ -206,10 +203,10 @@ body {
         font-family: "Nunito";
         font-weight: 900;
         text-align: center;
-        font-size: 1.7em;
+        font-size: 2.5em;
         /* line-height: 1.1; */
-        margin-top: -1vh;
-        margin-right: 5vw;
+        margin-top: 0vh;
+        margin-right: 10vw;
     }
 
     .presentText {
@@ -224,189 +221,105 @@ body {
         display: none; /* Oculta el menú de navegación principal en dispositivos más pequeños */
     }
 
-    .burgerMenuIcon {
-        font-size: 1.5em;
-        cursor: pointer;
-        order: 3;
-        color:#FBC02D;
-        margin-left: 26vw;
-        margin-bottom: 1vh;
-    }
-
-    #toggleMenu {
+    /* #toggleMenu {
         display: none;
-    }
+    } */
 
-    .navBar {
-        display: none;
-        flex-direction: column;
-        background-color: #FBC02D;
-        position: absolute;
-        width: 27%;
-        margin: 0vh 11.5vw;
-        border-radius: 20% 0% 20% 20%;
-        font-size: 0.5em;
-        text-align: center;
-    }
-
-    .navBar p {
-        margin: 10px 0;
-        color: #000000;
-    }
-
-    .contactButton {
-        display: none; /* Oculta el botón en el menú */
-    }
+  }
 
     #toggleMenu:checked + .burgerMenuIcon + .navBar {
         display: flex;
+        flex-direction: column;
+        background-color: #f8f9fa; 
+        position: absolute;
+        top: 60px;
+        right: 0;
     }
 
-    .mobileNone {
-        display: none;
+    #toggleMenu:checked + .burgerMenuIcon + .navBar + .languageContact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10px; /* Ajusta el margen superior según sea necesario */
     }
-
 
     .language {
         color: #FBC02D;
         font-family: "Roboto";
         margin-bottom: 10px;
     }
-  }
+
+    .burgerMenuIcon {
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+
+
 
 
 
 .backgroundSection1 {
-    background-image: url('assets/images/background_section1.png');
+    background-image: url('background_section1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
+/* .header {
+    padding: 3vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: yellow;
+} */
 
+/* .mainPage {
+    padding: 19.5vh;
+} */
+
+/* .box {
+    background: yellow;
+    padding: 1vh 0vw;
+    margin: 0vh 1vw;
+} */
+
+/* .left {
+    display: flex;
+    justify-content: left;
+    margin-left: 1vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    margin-right: 1vw;
+} */
+
+/* .contactButton {
+    background-color:aqua;
+    border: 0px;
+    padding: 1.5vh 3vw;
+    border-radius: 35px;
+
+} */
 
 .pointer {
     cursor: pointer;
 }
 
-/* section 4 */
+/* .navBar {
+    margin: 0vh 7vw;
+} */
 
-.section-4 {
-    background-image: url('./assets/background_section4.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-}
-
-.text-section-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3%;
-}
-
-.text-section-4 .yellow {
-    color: #FBC02D;
-}
-
-.text-section-4 h2 {
-    color: #1565C0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0.5%;
-    justify-content: center;
-}
-
-.text-section-4 h3 {
-    color: #FCFCFD;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 40px;
-    justify-content: center;
-    margin: 0%;
-
-}
-
-.text-section-4 p {
-    font-family: 'Roboto', sans-serif;
-    color: #FCFCFD;
-    text-align: center;
-    font-size: 16px;
-    padding-left: 13%;
-    padding-right: 13%;
-}
-
-.cards-section-4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.card-profile {
-    border-radius: 7.789px;
-    border: 3px solid #FBC02D;
-    background: white;
-    box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
-    padding: 15px;
-    text-align: center;
-    height: 560px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-}
-
-.card-profile .icon-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.card-profile .purple {
-    color: #880E4F;
-}
-
-.card-profile h2 {
-    color: #0F172A;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    font-style: bold;
-    justify-content: center;
-    margin: 0%;
-}
-
-.card-profile p {
-    font-family: 'Roboto', sans-serif;
-    font-style: regular;
-    font-size: 14px;
-    color: black;
-}
-
-.card-profile img {
-    height: 200px;
-    width: 200px;
-}
-
-.card-profile button {
-    background: none;
-    border: none;
-}
-
-.card-profile .icon-social {
-    height: 43px;
-    width: 45px;
-}
+/* .containerImg {
+    height: 50vh;
+    width: 50%;
+    background-color: white;
+} */
