@@ -331,3 +331,50 @@ h2, h3 {
     width: 8vh;
     background-color: white;
 }
+
+
+/* footer */
+
+* {
+    background-color: black;
+
+}
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo-footer {
+    width: 20vw;
+}
+
+.text-1-footer, .text-2-footer, .text-3-footer {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    margin: 10%;
+}
+
+.title-footer {
+    color:#FBC02D
+}
+
+.title-footer .text-column-footer {
+    display: flex;
+}
+
+.line-copyright {
+    margin-top: 20%;
+}
+/* .line-footer {
+    line-height: normal;
+} */
+.copyright {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
