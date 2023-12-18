@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .header {
+        padding: 2vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background: black;
+    }
+
+    .mainPage {
+        padding: 5vh;
+    }
+
+    .left {
+        display: flex;
+        justify-content: left;
+        margin-left: 1vw;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        /* margin-right: 1vw; */
+    }
+
+    .contactButton {
+        background-color: #FBC02D;
+        color: black;
+        font-family: "Roboto";
+        font-size: 0.7em;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border: 0px;
+        padding: 1.5vh 3vw;
+        border-radius: 10px;
+    
+    }
+
+    .navBar {
+        margin: 0vh 7vw;
+        color: #FBC02D;
+        /* font-weight: ; */
+        font-family: 'Roboto'
+
+    }
+
+    .containerImg {
+       position: relative;
+    }
+
+
+
+    .logo {
+        height: 9vh;
+        width: 25vw;
+    }
+
+    .imgCentral {
+        height: 60vh;
+        width: 70vw;
+    }
+
+    .language {
+        color: #FBC02D;
+        font-family: "Roboto";
+    }
+
+    .textoSuperpuesto {
+        position: absolute;
+        color: white;
+        font-family: "Nunito";
+        font-weight: 900;
+        text-align: center;
+        font-size: 3.5em;
+        /* line-height: 1.1; */
+        margin-top: 0vh;
+    }
+
+    .presentText {
+        color: white;
+        font-family: "Roboto";
+        text-align: center;
+        margin-top: -5vh;
+        width: 40vw;
+    }
+
+    .checkbox {
+        display: none;
+    }
+
+    .burgerMenuIcon {
+        display: none;
+    }
+
+
+}
+
+
+  @media only screen and (max-width: 768px) { 
+    /*For mobile phone*/
+    .col-1 {width: 25%;}
+    .col-2 {width: 50%;}
+    .col-3 {width: 75%;}
+    .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 100%;}
+
+    .header {
+        padding: 2vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background: black;
+    }
+
+    .marginTop {
+        margin-top: 10vh;
+    }
+
+    .navBar {
+        /* margin: 0vh 7vw; */
+        display: flex;
+        color: #FBC02D;
+        /* font-weight: ; */
+        font-family: 'Roboto'
+    }
+
+    .logo {
+        height: 9vh;
+    }
+
+    .contactButton {
+        background-color: #FBC02D;
+        color: black;
+        font-family: "Roboto";
+        font-size: 0.7em;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border: 0px;
+        padding: 1.5vh 3vw;
+        border-radius: 10px;
+    
+    }
+
+    /* .mainPage {
+        padding: 32vh;
+    } */
+
+    .containerImg {
+        position: relative;
+    }
+
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .language {
+        color: #FBC02D;
+        font-family: "Roboto";
+    }
+
+    .imgCentral {
+        height: 40vh;
+        width: 90vw;
+    }
+
+    .textoSuperpuesto {
+        position: absolute;
+        color: white;
+        font-family: "Nunito";
+        font-weight: 900;
+        text-align: center;
+        font-size: 2.5em;
+        /* line-height: 1.1; */
+        margin-top: 0vh;
+        margin-right: 10vw;
+    }
+
+    .presentText {
+        color: white;
+        font-family: "Roboto";
+        text-align: center;
+        margin-top: -2vh;
+        width: 85vw;
+    }
+
+    .navBar {
+        display: none; /* Oculta el menú de navegación principal en dispositivos más pequeños */
+    }
+
+    /* #toggleMenu {
+        display: none;
+    } */
+
+  }
+
+    #toggleMenu:checked + .burgerMenuIcon + .navBar {
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f9fa; 
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+
+    #toggleMenu:checked + .burgerMenuIcon + .navBar + .languageContact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    }
+
+    .language {
+        color: #FBC02D;
+        font-family: "Roboto";
+        margin-bottom: 10px;
+    }
+
+    .burgerMenuIcon {
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+.backgroundSection1 {
+    background-image: url('background_section1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* .header {
+    padding: 3vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: yellow;
+} */
+
+/* .mainPage {
+    padding: 19.5vh;
+} */
+
+/* .box {
+    background: yellow;
+    padding: 1vh 0vw;
+    margin: 0vh 1vw;
+} */
+
+/* .left {
+    display: flex;
+    justify-content: left;
+    margin-left: 1vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    margin-right: 1vw;
+} */
+
+/* .contactButton {
+    background-color:aqua;
+    border: 0px;
+    padding: 1.5vh 3vw;
+    border-radius: 35px;
+
+} */
+
+.pointer {
+    cursor: pointer;
+}
+
+/* .navBar {
+    margin: 0vh 7vw;
+} */
+
+/* .containerImg {
+    height: 50vh;
+    width: 50%;
+    background-color: white;
+} */
