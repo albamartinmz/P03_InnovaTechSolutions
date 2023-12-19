@@ -148,19 +148,25 @@ body {
     
     .thanksText {
         color: #1565C0;
-        font-family: "Roboto";
-        font-size: 1em;
-        font-weight: bold;
         text-align: center;
-        margin-top: 4vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        font-weight: 700;
+        line-height: normal;
+        justify-content: center;
+        padding-top: 6vh;
     }
     
     .who-we-areText {
-        font-family: "Nunito";
-        font-weight: 900;
+        color: #FFFFFF;
         text-align: center;
-        margin-left: 30%;
-        margin-right: 30%;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        padding: 0% 2%;
+        justify-content: center;
     }
     
     /* Estilo para el texto blanco */
@@ -186,7 +192,6 @@ body {
         width: 40vw;
         margin: 0vh 12vw;
         padding-bottom: 3vh;
-        text-align: justify;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -254,23 +259,23 @@ body {
         color: #1565C0;
         text-align: center;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 700;
         line-height: normal;
         justify-content: center;
         margin-top: 0vh;
-        padding-top: 4vh;
+        padding-top: 8vh;
     }
     
     .title {
         color: #FFFFFF;
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-style: normal;
         font-weight: 900;
         line-height: 40px;
-        padding: 0% 2%;
+        padding: 2% 2%;
         justify-content: center;
     }
     
@@ -363,11 +368,11 @@ body {
         color: #1565C0;
         text-align: center;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin: 4vh 0vw;
+        margin-top: 3rem;
         justify-content: center;
     }
     
@@ -375,12 +380,12 @@ body {
         color: #FCFCFD;
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 36px;
+        font-size: 1.8rem;
         font-style: normal;
         font-weight: 900;
         line-height: 40px;
+        padding: 0% 2%;
         justify-content: center;
-        margin: 0%;
     
     }
     
@@ -736,7 +741,7 @@ body {
         margin-bottom: 5%;
         margin-left: 15%;
         margin-right: 20%;
-        text-align: justify;
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -998,7 +1003,6 @@ body {
     }
     
     .card-profile img {
-        height: 30vh;
         width: 45vw;
     }
     
