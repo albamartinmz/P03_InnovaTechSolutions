@@ -458,6 +458,67 @@ body {
         height: 43px;
         width: 45px;
     }
+    
+    /* FOOTER */
+    
+    .footer {
+        margin:0;
+        background-color: black;
+        height: 55vh;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .img-logo-footer {
+        width: 20vw;
+        margin-left: -8vw;
+    }
+    
+    .top-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    
+    .left-footer {
+        display: flex;
+        align-items: center;
+    }
+    
+    .right-footer {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .text-1-footer, .text-2-footer, .text-3-footer {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        margin: 10%;
+        font-size: 1rem;
+    }
+    
+    .title-footer {
+        color:#FBC02D
+    }
+    
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .line-copyright {
+        line-height: normal;
+        width: 70%;
+        margin-bottom: 2%;
+    }
+    .copyright {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+
 
 /* Para muestra, un botón que te devuelve a la página de inicio*/
 
@@ -953,6 +1014,67 @@ body {
         align-items: center;
     }
 
+    /* FOOTER */
+
+    .footer {
+        margin:0;
+        background-color: black;
+        height: 55vh;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .img-logo-footer {
+        width: 20vw;
+        margin-left: -8vw;
+    }
+    
+    .top-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    
+    .left-footer {
+        display: flex;
+        align-items: center;
+    }
+    
+    .right-footer {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .text-1-footer, .text-2-footer, .text-3-footer {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        margin: 10%;
+        font-size: 1rem;
+    }
+    
+    .title-footer {
+        color:#FBC02D
+    }
+    
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .line-copyright {
+        line-height: normal;
+        width: 70%;
+        margin-bottom: 2%;
+    }
+    .copyright {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    
+
     /* Para muestra, un botón que te devuelve a la página de inicio*/
 
     .scroll-to-top-btn {
@@ -983,7 +1105,6 @@ body {
 .pointer {
     cursor: pointer;
 }
-
 
 /* footer */
 
