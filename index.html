@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap">
-    <script src="script.js"></script>
 </head>
 <body>
-    <section class="backgroundSection1"> <!--Página inicial-->
+    <!--Section 1 - Main Page-->
+    <section class="backgroundSection1"> 
         <div class="row header">
             <div class="col-2 flex">
-                <img src="assets/images/LOGO6-2.png" class="center logo" alt="Logo de InnovaTech Solutions">
+                <img src="assets/images/logo_entero_blanco.png" class="center logo" alt="Logo de InnovaTech Solutions">
             </div>
             <div class="col-8">
                 <input type="checkbox" id="toggleMenu" class="checkbox">
                 <label class="burgerMenuIcon col-3 center pointer" for="toggleMenu">&#9776;</label>
                 <div class="center navBar" id="navBar">
-                    <p class="col-3 center pointer">Quiénes somos</p>
-                    <p class="col-3 center pointer">Servicios</p>
-                    <p class="col-3 center pointer">Equipo</p>
+                    <p href="#quienesSomos" class="col-3 center pointer scroll-link">Quiénes somos</p>
+                    <p href="#servicios" class="col-3 center pointer scroll-link">Servicios</p>
+                    <p href="#equipo" class="col-3 center pointer scroll-link">Equipo</p>
                     <p class="col-3 center pointer desktopNone">Contáctanos</p>
                 </div>
             </div>
             <div class="col-2 flex languageContact">
                 <!-- <div class="language">ES/EN</div> -->
-                <button class="right contactButton pointer mobileNone">Contáctanos</button>
+                <button class="right mobileNone contactButton pointer">Contáctanos</button>
             </div>
         </div>
 
@@ -51,25 +51,26 @@
 
     </section>
 
-    <section> <!--Section 2 - Quiénes somos--> 
+    <!--Section 2 - Who We Are-->
+    <section id="quienesSomos">  
         
         <div class="row center section2__background">
-            <div class="col-12 thanksText">
-                <div><p class="thanksText">¡Gracias por su interés en<br>nuestra consultoría!</p></div>
+            <div class="col-12">
+                <div><h2 class="thanksText">¿Quiénes somos?</h2></div>
             </div>  
         </div>
         <div class="row center section2__background">
             <div class="col-12 who-we-areText">
-                <h2><span class="who-we-areText--white">Fundada hace más de 3 años, </span><span class="who-we-areText--yellow">InnovaTech Solutions </span><span class="who-we-areText--white">se ha convertido en la principal consultoría de </span><span class="who-we-areText--yellow">Diseño UX/UI y Desarrollo Web </span><span class="who-we-areText--white">en Madrid</span></h2>
+                <h3><span class="who-we-areText--white">Fundada hace más de 3 años, </span><span class="who-we-areText--yellow">InnovaTech Solutions </span><span class="who-we-areText--white">se ha convertido en la principal consultoría de </span><span class="who-we-areText--yellow">Diseño UX/UI y Desarrollo Web </span><span class="who-we-areText--white">en Madrid</span></h3>
             </div>
         </div>
 
-        <div class="row center section2__container section2__background">
-            <div class="col-6 left descriptiveText">
+        <div class="row section2__container section2__background">
+            <div class="col-3 descriptiveText">
                 <h3>La fusión entre la tecnología y los negocios puede dar frutos beneficiosos en términos de prosperidad y éxito empresarial. Y esto es exactamente lo que aspiramos ofrecer a nuestros estimados clientes, brindando nuestra combinación de confiabilidad, capacidad y durabilidad para hacer florecer su sitio web. En InnovaTech Solutions destacamos en el ámbito del Diseño y Desarrollo de aplicaciones Web y Multiplataforma, en la Especialización en la Accesibilidad e Inclusividad, en la Integración de AIaaS y en Marketing digital y posicionamiento SEO entre otras soluciones web que pueda considerar para el crecimiento de su sitio web. ¿Necesitas crear una web desde cero? ¿Tal vez realizar un estudio del sector y aplicar el UX/UI en tu website? ¿Tienes una página web pero careces de tráfico? No te preocupes. En InnovaTech Solutions, utilizamos nuestra experiencia tecnológica...</h3>
                 <div class="infoButton pointer">Ver más...</div> 
             </div>
-            <div class="col-6 right">
+            <div class="col-3 right">
                 <img src="assets\image-section-2.png" class="section2__image" alt="computer image section2">
             </div>
         </div>
@@ -99,8 +100,8 @@
     
     </section>
 
-    <!-- section-3 -->
-    <section class="section-3">
+    <!-- section-3 - Services-->
+    <section class="section-3" id="servicios">
         <div class="text-section-3">
             <h2 class="little-title">Los servicios que ofrecemos</h2>
             <h3 class="title">En <span class="yellow">InnovaTech Solutions</span>, basamos nuestra filosofía en la creencia de establecer asociaciones genuinas con nuestros <span class="yellow">clientes</span>. Valoramos la confianza depositada en nosotros y trabajamos duro para proporcionar <span class="yellow">soluciones tecnológicas</span> que superen las expectativas.</h3>
@@ -127,10 +128,10 @@
         </section>
     </section>
 
-    <!-- section-4 -->
-    <section class="section-4">
+    <!-- section-4 - Team -->
+    <section class="section-4" id="equipo">
         <div class="text-section-4">
-            <h2>¿Quiénes somos?</h2>
+            <h2>Somos desarrolladoras</h2>
             <h3>Los miembros de <span class="yellow">nuestro equipo</span></h3>
             <p>Eligiendo nuestra consultoría, optas por la excelencia y la verdadera dedicación. 
                 Nos destacamos por nuestra pasión en cada proyecto, sin atajos ni falsas expectativas. 
@@ -141,8 +142,8 @@
                 Confía en nosotros para superar cualquier desafío y transformar tus visiones en realidad.</p>
         </div>
         <!-- cards-profiles -->
-        <div class="cards-section-4">
-            <div class="card-profile">
+        <div class="cards-section-4 row grid">
+            <div class="card-profile col-6">
                 <img src="assets/img-alba.png" alt="Imagen de perfil de Alba Martín">
                 <h2><span class="purple">Alba Martínez</span></h2>
                 <h2>Directora de Proyectos y Manager de Diseño UX/UI</h2>
@@ -155,7 +156,7 @@
                     <a href="https://www.linkedin.com" target="_blank"><button class="icon-social"><img src="assets/linkedin.png" class="icon-social"></button></a>
                 </div>
             </div>
-            <div class="card-profile">
+            <div class="card-profile col-6">
                 <img src="assets/img-saray.png" alt="Imagen de perfil de Saray Rodríguez">
                 <h2><span class="purple">Saray Rodríguez</span></h2>
                 <h2>Especialista en Marketing Digital y Diseñadora de Comercio Online</h2>
@@ -169,8 +170,8 @@
                 </div>
             </div>
         </div>
-        <div class="cards-section-4">    
-            <div class="card-profile">
+        <div class="cards-section-4 row grid">    
+            <div class="card-profile col-6">
                 <img src="assets/img-laura.png" alt="Imagen de perfil de Laura Espada">
                 <h2><span class="purple">Laura Espada</span></h2>
                 <h2>Analista de Datos y Business Intelligence</h2>
@@ -183,7 +184,7 @@
                     <a href="https://www.linkedin.com" target="_blank"><button class="icon-social"><img src="assets/linkedin.png" class="icon-social"></button></a>
                 </div>
             </div>
-            <div class="card-profile">
+            <div class="card-profile col-6">
                 <img src="assets/img-desi.png" alt="Imagen de perfil de Desirée Carrizosa">
                 <h2><span class="purple">Desirée Carrizosa</span></h2>
                 <h2>Experta en Desarrollo de Software Personalizado</h2>
@@ -198,9 +199,9 @@
             </div>
         </div>
     </section> 
-    
+
       <!-- footer -->
-      <section class="footer">
+    <section class="footer">
     
         <div class="top-footer">
             <div class="left-footer">
@@ -230,5 +231,9 @@
             <p class="copyright">@Copyright 2023 InnovaTech Solutions</p>            
         </div>
     </section>
+
+    <div id="scrollToTopBtn" class="scroll-to-top-btn">&uarr;</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
