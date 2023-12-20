@@ -9,6 +9,10 @@ body {
     display: table;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 
   @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -1124,6 +1128,3 @@ body {
   }
 
 
-.pointer {
-    cursor: pointer;
-}
