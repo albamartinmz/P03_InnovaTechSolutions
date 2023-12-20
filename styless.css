@@ -9,6 +9,11 @@ body {
     display: table;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -23,6 +28,16 @@ body {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+/*SECTION 1*/
+
+    .backgroundSection1 {
+    background-image: url('assets/images/background_section1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
 
     .header {
         padding: 2vh;
@@ -48,10 +63,10 @@ body {
         align-items: center;
     }
     
-    .right {
+    .flex {
         display: flex;
-        justify-content: space-around;
         align-items: center;
+        justify-content: center;
         /* margin-right: 1vw; */
     }
 
@@ -85,6 +100,7 @@ body {
     .logo {
         height: 9vh;
         width: 25vw;
+        margin-left: 4vw;
     }
 
     .imgCentral {
@@ -113,10 +129,429 @@ body {
         font-family: "Roboto";
         text-align: center;
         margin-top: -5vh;
+        width: 40vw;
     }
 
-    .paddingInf {
-        height: 19vh;
+    .checkbox {
+        display: none;
+    }
+
+    .burgerMenuIcon {
+        display: none;
+    }
+
+    .desktopNone {
+        display: none;
+    }
+
+    /*SECTION 2*/
+
+    .section2__background {
+        background: #000033;
+    }
+    
+    .thanksText {
+        color: #1565C0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        font-weight: 700;
+        line-height: normal;
+        justify-content: center;
+        padding-top: 6vh;
+    }
+    
+    .who-we-areText {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        padding: 0% 2%;
+        justify-content: center;
+    }
+    
+    /* Estilo para el texto blanco */
+    .who-we-areText--white {
+        color: #fff; 
+    }
+    
+    /* Estilo para el texto amarillo */
+    .who-we-areText--yellow {
+        color: #FBC02D; 
+    }
+    
+    .section2__container {
+        display: flex;
+        /* justify-content: space-between; */
+     }
+     
+    .descriptiveText {
+        color: #fff;
+        font-family: "Roboto";
+        font-size: 0.8em;
+        font-weight: 500;
+        width: 40vw;
+        margin: 0vh 12vw;
+        padding-bottom: 3vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-right: 1vw; */
+    }
+    
+    .section2__image {
+        width: 90%;
+        margin-bottom: 10%;
+        /* margin-right: 90%; */
+        object-fit: contain; /* para ajuste de la imagen al tamaño del contenedor*/
+    }
+    
+    .infoButton {
+        background-color: #FBC02D;
+        margin-top: -1%;
+        color: black;
+        font-family: "Roboto";
+        font-size: 0.7em;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        padding: 1.5vh 3vw;
+        border-radius: 10px;
+    }
+    
+    .section2__icons {
+        color:#fff;
+        font-family: "Roboto";
+        display: flex;
+        padding: 3vh 0vw;
+    }
+    
+    .icon {
+        display: grid;
+        justify-items: auto;
+        margin: auto;
+        line-height: 0vh;
+    }
+    
+    .icon1 {
+        width: 95%
+    }
+
+    /*SECTION 3*/
+
+    .section-3 {
+        background-image: url('assets/background_section3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    
+    .yellow {
+        color: #FBC02D
+    }
+    
+    .little-title {
+        color: #1565C0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        font-weight: 700;
+        line-height: normal;
+        justify-content: center;
+        margin-top: 0vh;
+        padding-top: 8vh;
+    }
+    
+    .title {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        padding: 2% 2%;
+        justify-content: center;
+    }
+    
+    /* cards section 3 */
+    
+    .cards-section-3 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .card-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 7.789px;
+        border-top: 12px solid #880E4F;
+        background: white;
+        box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+        width: 30vw;
+        height: 40vh;
+        margin: 3vh 5vw;
+    }
+    
+    .pair-cards {
+        display: flex;
+    }
+    
+    .text-card {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .icon-card {
+        width: 6vw;
+        margin-left: 1vw;
+        max-width: 100%; 
+        height: auto;
+        background-color: white;
+    }
+    
+    .button-arrow {
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: 3vh; 
+        margin-right: 1vw;
+    }
+    
+    .arrow {
+        width: 5vw;
+        background-color: white;
+    }
+    
+    .cardText {
+        font-size: 1.75em;
+        margin: 1vh 2vw;
+    }
+
+    /*SECTION 4*/
+
+    .section-4 {
+        background-image: url('./assets/background_section4.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    
+    .text-section-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-top: 3%; */
+    }
+    
+    .text-section-4 .yellow {
+        color: #FBC02D;
+    }
+    
+    .text-section-4 h2 {
+        color: #1565C0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 3rem;
+        justify-content: center;
+    }
+    
+    .text-section-4 h3 {
+        color: #FCFCFD;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        padding: 0% 2%;
+        justify-content: center;
+    
+    }
+    
+    .text-section-4 p {
+        font-family: 'Roboto', sans-serif;
+        color: #FCFCFD;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+    
+    .cards-section-4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .card-profile {
+        border-radius: 7.789px;
+        border: 3px solid #FBC02D;
+        background: white;
+        box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+        padding: 15px;
+        text-align: center;
+        height: 560px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+    }
+    
+    .card-profile .icon-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .card-profile .purple {
+        color: #880E4F;
+    }
+    
+    .card-profile h2 {
+        color: #0F172A;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 22px;
+        font-style: bold;
+        justify-content: center;
+        margin: 0%;
+    }
+    
+    .card-profile p {
+        font-family: 'Roboto', sans-serif;
+        font-style: regular;
+        font-size: 14px;
+        color: black;
+    }
+    
+    .card-profile img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .card-profile button {
+        background: none;
+        border: none;
+    }
+    
+    .card-profile .icon-social {
+        height: 43px;
+        width: 45px;
+    }
+    
+    /* FOOTER */
+    
+    .footer {
+        margin:0;
+        background-color: black;
+        height: 60vh;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .img-logo-footer {
+        width: 20vw;
+        /* margin-left: -8vw; */
+    }
+    
+    .top-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    
+    .left-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .right-footer {
+        display: flex;
+        flex-direction: row;
+        margin-right: 13vw;
+    }
+    
+    .text-1-footer, .text-2-footer, .text-3-footer {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        margin: 10%;
+        font-size: 1rem;
+    }
+    
+    .title-footer {
+        color:#FBC02D
+    }
+    
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .line-copyright {
+        line-height: normal;
+        width: 70%;
+        margin-bottom: 2%;
+    }
+    .copyright {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+
+
+/* Para muestra, un botón que te devuelve a la página de inicio*/
+
+    .scroll-to-top-btn {
+        position: fixed;
+        bottom: 2vh;
+        right: 2vh;
+        background-color: #1565C0; /* Puedes ajustar el color según tus preferencias */
+        color: #fff;
+        font-size: 1.5em;
+        width: 3vw;
+        height: 6vh;
+        text-align: center;
+        line-height: 3vw;
+        cursor: pointer;
+        border-radius: 50%;
+        display: none;
+    }
+
+    .scroll-to-top-btn:hover {
+        background-color: #012953; /* Cambia el color al pasar el ratón sobre el botón */
     }
 
 
@@ -130,20 +565,26 @@ body {
     .col-3 {width: 75%;}
     .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 100%;}
 
+
+/*SECTION 1*/    
+    .backgroundSection1 {
+    background-image: url('assets/images/background_section1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+
     .header {
-        padding: 2vh;
+        padding: 2vh 10vw;
         display: flex;
         justify-content:space-around;
         align-items: center;
         background: black;
     }
 
-    .navBar {
-        /* margin: 0vh 7vw; */
-        display: flex;
-        color: #FBC02D;
-        /* font-weight: ; */
-        font-family: 'Roboto'
+    .marginTop {
+        margin-top: 10vh;
     }
 
     .logo {
@@ -163,9 +604,6 @@ body {
     
     }
 
-    /* .mainPage {
-        padding: 32vh;
-    } */
 
     .containerImg {
         position: relative;
@@ -183,153 +621,510 @@ body {
         font-family: "Roboto";
     }
 
+    .imgCentral {
+        height: 40vh;
+        width: 90vw;
+    }
+
     .textoSuperpuesto {
         position: absolute;
         color: white;
         font-family: "Nunito";
         font-weight: 900;
         text-align: center;
-        font-size: 3.5em;
+        font-size: 1.7em;
         /* line-height: 1.1; */
-        margin-top: 0vh;
+        margin-top: -1vh;
+        margin-right: 5vw;
     }
 
     .presentText {
         color: white;
         font-family: "Roboto";
         text-align: center;
-        margin-top: -5vh;
+        margin-top: -2vh;
+        width: 85vw;
     }
 
-    .paddingInf {
-        height: 19vh;
+    .navBar {
+        display: none; /* Oculta el menú de navegación principal en dispositivos más pequeños */
     }
-} 
+
+    .burgerMenuIcon {
+        font-size: 1.5em;
+        cursor: pointer;
+        order: 3;
+        color:#FBC02D;
+        margin-left: 26vw;
+        margin-bottom: 1vh;
+    }
+
+    #toggleMenu {
+        display: none;
+    }
+
+    .navBar {
+        display: none;
+        flex-direction: column;
+        background-color: #FBC02D;
+        position: absolute;
+        width: 27%;
+        margin: 0vh 11.5vw;
+        border-radius: 20% 0% 20% 20%;
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .navBar p {
+        margin: 10px 0;
+        color: #000000;
+    }
+
+    .mobileNone {
+        display: none;
+    }
+    .contactButton {
+        display: none; /* Oculta el botón en el menú */
+    }
+
+    #toggleMenu:checked + .burgerMenuIcon + .navBar {
+        display: flex;
+    }
+
+    .language {
+        color: #FBC02D;
+        font-family: "Roboto";
+        margin-bottom: 10px;
+    }
+
+    /*SECTION 2*/
+
+    .section2__background {
+        background: #000033;
+    }
+    
+    .thanksText {
+        color: #1565C0;
+        font-family: "Roboto";
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 4vh;
+    }
+    
+    .who-we-areText {
+        font-family: "Nunito";
+        font-weight: 900;
+        text-align: center;
+        margin: 0vh 3vw;
+    }
+    
+    /* Estilo para el texto blanco */
+    .who-we-areText--white {
+        color: #fff; 
+    }
+    
+    /* Estilo para el texto amarillo */
+    .who-we-areText--yellow {
+        color: #FBC02D; 
+    }
+    
+    .section2__container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+     
+    .descriptiveText {
+        color: #fff;
+        font-family: "Roboto";
+        font-size: 0.8em;
+        font-weight: 500;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        margin-right: 20%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .right {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        /* margin-right: 1vw; */
+    }
+    
+    .section2__image {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-right: 90%;
+        object-fit: contain; /* para ajuste de la imagen al tamaño del contenedor*/
+    }
+    
+    .infoButton {
+        background-color: #FBC02D;
+        margin-top: -1%;
+        color: black;
+        font-family: "Roboto";
+        font-size: 0.7em;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        padding: 1.5vh 3vw;
+        border-radius: 10px;
+    }
+    
+    .section2__icons {
+        color:#fff;
+        font-family: "Roboto";
+        display: flex;
+        padding-bottom: 3vh;
+    }
+    
+    .icon {
+        display: grid;
+        justify-items: auto;
+        margin: auto;
+        line-height: 0vh;
+    }
+    
+    .icon1 {
+        width: 95%
+    }
+
+    /*SECTION 3*/
+
+    .section-3 {
+        background-image: url('assets/background_section3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    
+    .yellow {
+        color: #FBC02D
+    }
+    
+    .little-title {
+        color: #1565C0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: normal;
+        justify-content: center;
+        margin-top: 0vh;
+        padding-top: 4vh;
+    }
+    
+    .title {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        padding: 0% 7%;
+        justify-content: center;
+    }
+    
+    /* cards section 3 */
+    
+    .cards-section-3 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .card-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 7.789px;
+        border-top: 12px solid #880E4F;
+        background: white;
+        box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+        width: 70vw;
+        height: 30vh;
+        margin-bottom: 4vh;
+    }
+    
+    .pair-cards {
+        display: flex;
+    }
+    
+    .text-card {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .icon-card {
+        width: 12vw;
+        margin-left: 1vw;
+        margin-top: 1vh;
+        max-width: 100%; 
+        height: auto;
+        background-color: white;
+    }
+    
+    .button-arrow {
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: 3vh; 
+        margin-right: 1vw;
+    }
+    
+    .arrow {
+        width: 12vw;
+        background-color: white;
+        margin-top: -3vh;
+    }
+    
+    .cardText {
+        font-size: 1.5em;
+        margin: 2vh 3vw;
+    }
+
+    /*SECTION 4*/
+
+    .section-4 {
+        background-image: url('./assets/background_section4.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    
+    .text-section-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-top: 3%; */
+    }
+    
+    .text-section-4 .yellow {
+        color: #FBC02D;
+    }
+    
+    .text-section-4 h2 {
+        color: #1565C0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 4vh 0vw;
+        justify-content: center;
+    }
+    
+    .text-section-4 h3 {
+        color: #FCFCFD;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 2.2em;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 6vh;
+        justify-content: center;
+        margin: 0%;
+    
+    }
+    
+    .text-section-4 p {
+        font-family: 'Roboto', sans-serif;
+        color: #FCFCFD;
+        text-align: center;
+        font-size: 1em;
+        padding: 0vh 9vw;
+    }
+    
+    .cards-section-4 {
+        /* display: flex; */
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        /* margin-left: 15%;
+        margin-right: 15%; */
+    }
+    
+    .card-profile {
+        border-radius: 7.789px;
+        border: 3px solid #FBC02D;
+        background: white;
+        box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
+        padding: 2vh;
+        text-align: center;
+        height: 70vh;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2vh 0vw;
+    }
+    
+    .card-profile .icon-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 5vw;
+    }
+    
+    .card-profile .purple {
+        color: #880E4F;
+    }
+    
+    .card-profile h2 {
+        color: #0F172A;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.2em;
+        font-style: bold;
+        justify-content: center;
+        margin: 0%;
+    }
+    
+    .card-profile p {
+        font-family: 'Roboto', sans-serif;
+        font-style: regular;
+        font-size: 0.9em;
+        color: black;
+    }
+    
+    .card-profile img {
+        width: 45vw;
+    }
+    
+    .card-profile button {
+        background: none;
+        border: none;
+    }
+    
+    .card-profile .icon-social {
+        height: 5vh;
+        width: 10vw;
+    }
+
+    .grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        margin:0;
+        background-color: black;
+        height: 95vh;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .img-logo-footer {
+        width: 77vw;
+        margin-top: 5vh;
+    }
+    
+    .top-footer {
+        display: grid;
+        /* flex-direction: row;
+        justify-content: space-around; */
+    
+    }
+    
+    .left-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .right-footer {
+        display: grid;
+        /* flex-direction: row; */
+    }
+    
+    .text-1-footer, .text-2-footer, .text-3-footer {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        margin: 2vh 0vw;
+        font-size: 1rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        line-height: 0vh;
+    }
+
+    .text-column-footer {
+        text-align: center;
+    }
+    
+    .title-footer {
+        color:#FBC02D;
+        text-align: center;
+    }
+    
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .line-copyright {
+        line-height: normal;
+        width: 70%;
+        margin-bottom: 2%;
+    }
+    .copyright {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .iconsFooter {
+        margin-top: 4vh;
+    }
+
+    
+
+    /* Para muestra, un botón que te devuelve a la página de inicio*/
+
+    .scroll-to-top-btn {
+        position: fixed;
+        bottom: 2vh;
+        right: 2vh;
+        background-color: #1565C0; /* Puedes ajustar el color según tus preferencias */
+        color: #fff;
+        font-size: 1.5em;
+        width: 8vw;
+        height: 6vh;
+        text-align: center;
+        line-height: 11vw;
+        cursor: pointer;
+        border-radius: 50%;
+        display: none;
+    }
+
+    .scroll-to-top-btn:hover {
+        background-color: #012953; /* Cambia el color al pasar el ratón sobre el botón */
+    }
 
 
-.mainBackground {
-    background: black;
-}
 
-/* .header {
-    padding: 3vh;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    background: yellow;
-} */
-
-/* .mainPage {
-    padding: 19.5vh;
-} */
-
-/* .box {
-    background: yellow;
-    padding: 1vh 0vw;
-    margin: 0vh 1vw;
-} */
-
-/* .left {
-    display: flex;
-    justify-content: left;
-    margin-left: 1vw;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
-.right {
-    display: flex;
-    justify-content: right;
-    margin-right: 1vw;
-} */
-
-/* .contactButton {
-    background-color:aqua;
-    border: 0px;
-    padding: 1.5vh 3vw;
-    border-radius: 35px;
-
-} */
-
-.pointer {
-    cursor: pointer;
-}
-
-/* .navBar {
-    margin: 0vh 7vw;
-} */
-
-/* .containerImg {
-    height: 50vh;
-    width: 50%;
-    background-color: white;
-} */
+  }
 
 
-/* section 3 */
-
-* {
-    background-color: black;
-}
-
-.yellow {
-    color: #FBC02D
-}
-
-h2 {
-    color: #1565C0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h3 {
-    color: #FCFCFD;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 40px; /* 111.111% */
-}
-
-h2, h3 {
-    margin: 0;
-    justify-content: center;
-}
-
-/* cards section 3 */
-
-.cards-section-3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.card {
-    border-radius: 7.789px;
-    border-top: 12px solid #880E4F;
-    background: white;
-    box-shadow: 0px 5.842px 15.578px 0px rgba(0, 0, 0, 0.12);
-    height: 45vh;
-    width: 70%;
-}
-
-.icon-card {
-    background-color: white;
-}
-.arrow {
-    height: 8vh;
-    width: 8vh;
-    background-color: white;
-}

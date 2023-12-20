@@ -9,66 +9,231 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap">
 </head>
 <body>
-    <section> <!--Página inicial-->
+    <!--Section 1 - Main Page-->
+    <section class="backgroundSection1"> 
         <div class="row header">
-            <div class="col-2 right">
-                <img src="LOGO6-2.png" class="center logo" alt="Logo de InnovaTech Solutions">
+            <div class="col-2 flex">
+                <img src="assets/images/logo_entero_blanco.png" class="center logo" alt="Logo de InnovaTech Solutions">
             </div>
             <div class="col-8">
-                <div class="center navBar">
-                    <!-- <div class="col-3 center pointer">Text</div> -->
-                    <p class="col-3 center pointer">Quiénes somos</p>
-                    <p class="col-3 center pointer">Servicios</p>
-                    <p class="col-3 center pointer">Equipo</p>
+                <input type="checkbox" id="toggleMenu" class="checkbox">
+                <label class="burgerMenuIcon col-3 center pointer" for="toggleMenu">&#9776;</label>
+                <div class="center navBar" id="navBar">
+                    <p href="#quienesSomos" class="col-3 center pointer scroll-link">Quiénes somos</p>
+                    <p href="#servicios" class="col-3 center pointer scroll-link">Servicios</p>
+                    <p href="#equipo" class="col-3 center pointer scroll-link">Equipo</p>
+                    <!-- <p class="col-3 center pointer desktopNone">Contáctanos</p> -->
                 </div>
             </div>
-            <div class="col-2 right">
-                <div class="language">ES/EN</div>
-                <button class="right contactButton pointer">Contáctanos</button>
+            <div class="col-2 flex languageContact">
+                <!-- <div class="language">ES/EN</div> -->
+                <button class="right mobileNone contactButton pointer">Contáctanos</button>
             </div>
         </div>
 
-        <div class="row mainBackground center">
+        <div class="row center marginTop">
             <div class="col-12 containerImg center">
-                <img src="image-section-1.png" class="imgCentral" alt="Imagen central con forma de planeta con un anillo">
+                <img src="assets/images/image-section-1.png" class="imgCentral" alt="Imagen central con forma de planeta con un anillo">
                 <h1 class="textoSuperpuesto">Bienvenidos a<br>InnovaTech Solutions</h1>
             </div>
         </div>
 
-        <div class="row center mainBackground">
-            <div><p class="presentText">Nuestra consultora tecnológica se destaca por su especialización en diseño<br>UX UI, creando experiencias
-                 digitales cautivadoras y funcionales.<br>Transformando ideas en interfaces intuitivas que potencian 
-                 la satisfacción<br>del usuario y del éxito empresarial.</p></div>
+        <div class="row center">
+            <div><p class="presentText">Nuestra consultora tecnológica se destaca por su especialización en diseño UX UI, creando experiencias
+                 digitales cautivadoras y funcionales. Transformando ideas en interfaces intuitivas que potencian 
+                 la satisfacción del usuario y del éxito empresarial.</p></div>
         </div>
 
-        <div class="row center mainBackground">
+        <div class="row center">
             <button class="contactButton">Saber más...</button>
         </div>
 
-        <div class="mainBackground paddingInf"></div>
 
     </section>
 
-    <!-- section-3 -->
-    <section>
-        <div class="text-section-3">
-            <h2>Los servicios que ofrecemos</h2>
-            <h3>En <span class="yellow">InnovaTech Solutions</span>, basamos nuestra filosofía en la creencia de establecer asociaciones genuinas con nuestros <span class="yellow">clientes</span>. Valoramos la confianza depositada en nosotros y trabajamos duro para proporcionar <span class="yellow">soluciones tecnológicas</span> que superen las expectativas.</h3>
+    <!--Section 2 - Who We Are-->
+    <section id="quienesSomos">  
+        
+        <div class="row center section2__background">
+            <div class="col-12">
+                <div><h2 class="thanksText">¿Quiénes somos?</h2></div>
+            </div>  
         </div>
+        <div class="row center section2__background">
+            <div class="col-12 who-we-areText">
+                <h3><span class="who-we-areText--white">Fundada hace más de 3 años, </span><span class="who-we-areText--yellow">InnovaTech Solutions </span><span class="who-we-areText--white">se ha convertido en la principal consultoría de </span><span class="who-we-areText--yellow">Diseño UX/UI y Desarrollo Web </span><span class="who-we-areText--white">en Madrid</span></h3>
+            </div>
+        </div>
+
+        <div class="row section2__container section2__background">
+            <div class="col-3 descriptiveText">
+                <h3>La fusión entre la tecnología y los negocios puede dar frutos beneficiosos en términos de prosperidad y éxito empresarial. Y esto es exactamente lo que aspiramos ofrecer a nuestros estimados clientes, brindando nuestra combinación de confiabilidad, capacidad y durabilidad para hacer florecer su sitio web. En InnovaTech Solutions destacamos en el ámbito del Diseño y Desarrollo de aplicaciones Web y Multiplataforma, en la Especialización en la Accesibilidad e Inclusividad, en la Integración de AIaaS y en Marketing digital y posicionamiento SEO entre otras soluciones web que pueda considerar para el crecimiento de su sitio web. ¿Necesitas crear una web desde cero? ¿Tal vez realizar un estudio del sector y aplicar el UX/UI en tu website? ¿Tienes una página web pero careces de tráfico? No te preocupes. En InnovaTech Solutions, utilizamos nuestra experiencia tecnológica...</h3>
+                <div class="infoButton pointer">Ver más...</div> 
+            </div>
+            <div class="col-3 right">
+                <img src="assets\image-section-2.png" class="section2__image" alt="computer image section2">
+            </div>
+        </div>
+    
+        <div class="row section2__icons section2__background">
+            <div class="icon">
+                <img src="assets\section2-icon1-projects.png" class="icon1">
+                <h4 class="icon__name center">Proyectos</h4>
+                <p class="icon__info center">65+</p>
+            </div>
+            <div class="icon">
+                <img src="assets\section2-icon2-clients.png" class="icon">
+                <h4 class="icon__name center"v>Clientes</h4>
+                <p class="icon__info center">30+</p>
+            </div>
+            <div class="icon">
+                <img src="assets\section2-icon3-experience.png" class="icon">
+                <h4 class="icon__name center">Experiencia</h4>
+                <p class="icon__info center">3 Años+</p>
+            </div>
+            <div class="icon">
+                <img src="assets\section2-icon4-companys.png" class="icon">
+                <h4 class="icon__name center">Empresas</h4>
+                <p class="icon__info center">15+</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- section-3 - Services-->
+    <section class="section-3" id="servicios">
+        <div class="text-section-3">
+            <h2 class="little-title">Los servicios que ofrecemos</h2>
+            <h3 class="title">En <span class="yellow">InnovaTech Solutions</span>, basamos nuestra filosofía en la creencia de establecer asociaciones genuinas con nuestros <span class="yellow">clientes</span>. Valoramos la confianza depositada en nosotros y trabajamos duro para proporcionar <span class="yellow">soluciones tecnológicas</span> que superen las expectativas.</h3>
+        </div>
+
         <!-- cards -->
-        <div class="cards-section-3">
-            <div class="card"><img src="assets/icon-card-1.png" class="icon-card">Diseño de Interfaces y Experiencia de Usuario UX/UI<button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
-
-            <div class="card"><img src="assets/icon-card-2.png" class="icon-card">Desarrollo de Aplicaciones Web y Multiplataforma<button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
-
-            <div class="card"><img src="assets/icon-card-3.png" class="icon-card">Especialización en Accesibilidad e Inclusividad<button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button>
+        <section class="cards-section-3">
+            <div class="row flex">
+                <div class="card col-6"><img src="assets/icon-card-1.png" class="icon-card"><p class="cardText">Diseño de Interfaces y Experiencia de Usuario UX/UI</p><button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
             </div>
 
-            <div class="card"><img src="assets/icon-card-4.png" class="icon-card">Posicionamiento SEO y Marketing Digital<button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
+            <div class="row flex">
 
-            <div class="card"><img src="assets/icon-card-5.png" class="icon-card">Integración de Inteligencia Artificial como servicio<button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
+                <div class="card col-3"><img src="assets/icon-card-2.png" class="icon-card"><p class="cardText">Desarrollo de Aplicaciones Web y Multiplataforma</p><button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
+
+                <div class="card col-3"><img src="assets/icon-card-3.png" class="icon-card"><p class="cardText">Especialización en Accesibilidad e Inclusividad</p><button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
+            </div>
+
+            <div class="row flex">
+                <div class="card col-3"><img src="assets/icon-card-4.png" class="icon-card"><p class="cardText">Posicionamiento SEO y Marketing Digital</p><button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
+
+                <div class="card col-3"><img src="assets/icon-card-5.png" class="icon-card"><p class="cardText">Integración de Inteligencia Artificial como servicio</p><button class="button-arrow"><img src="/assets/icon-arrow.png" class="arrow"></button></div>
+            </div>
+        </section>
+    </section>
+
+    <!-- section-4 - Team -->
+    <section class="section-4" id="equipo">
+        <div class="text-section-4">
+            <h2>Somos desarrolladoras</h2>
+            <h3>Los miembros de <span class="yellow">nuestro equipo</span></h3>
+            <p>Eligiendo nuestra consultoría, optas por la excelencia y la verdadera dedicación. 
+                Nos destacamos por nuestra pasión en cada proyecto, sin atajos ni falsas expectativas. 
+                Nos esforzamos por mejorar continuamente, mostrando autenticidad en cada interacción. 
+                Con un compromiso inquebrantable con la calidad y la transparencia, te brindamos soluciones
+                tecnológicas que van más allá de tus expectativas. En nuestra consultoría, no solo encontrarás 
+                experiencia especializada, sino una verdadera asociación que impulsa el éxito conjunto. 
+                Confía en nosotros para superar cualquier desafío y transformar tus visiones en realidad.</p>
+        </div>
+        <!-- cards-profiles -->
+        <div class="cards-section-4 row grid">
+            <div class="card-profile col-6">
+                <img src="assets/img-alba.png" alt="Imagen de perfil de Alba Martín">
+                <h2><span class="purple">Alba Martínez</span></h2>
+                <h2>Directora de Proyectos y Manager de Diseño UX/UI</h2>
+                <p>Alba lidera nuestro equipo con una pasión desbordante por el diseño centrado en el usuario. 
+                        Con una visión creativa y orientación estratégica, guía proyectos desde la conceptualización 
+                        hasta la implementación, asegurando experiencias digitales únicas.</p>
+                <div class="icon-container">
+                    <a href="https://www.facebook.com" target="_blank"><button class="icon-social"><img src="assets/facebook.png" class="icon-social"></button></a>
+                    <a href="https://www.twitter.com" target="_blank"><button class="icon-social"><img src="assets/twitter.png" class="icon-social"></button></a>
+                    <a href="https://www.linkedin.com" target="_blank"><button class="icon-social"><img src="assets/linkedin.png" class="icon-social"></button></a>
+                </div>
+            </div>
+            <div class="card-profile col-6">
+                <img src="assets/img-saray.png" alt="Imagen de perfil de Saray Rodríguez">
+                <h2><span class="purple">Saray Rodríguez</span></h2>
+                <h2>Especialista en Marketing Digital y Diseñadora de Comercio Online</h2>
+                <p>Saray lidera nuestra estrategia de marketing digital con creatividad y enfoque. 
+                    Con un ojo para las tendencias digitales y la optimización de campañas, impulsa la visibilidad 
+                    en línea, asegurando que nuestros clientes destaquen en un mundo digital competitivo.</p>
+                <div class="icon-container">
+                    <a href="https://www.facebook.com" target="_blank"><button class="icon-social"><img src="assets/facebook.png" class="icon-social"></button></a>
+                    <a href="https://www.twitter.com" target="_blank"><button class="icon-social"><img src="assets/twitter.png" class="icon-social"></button></a>
+                    <a href="https://www.linkedin.com" target="_blank"><button class="icon-social"><img src="assets/linkedin.png" class="icon-social"></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="cards-section-4 row grid">    
+            <div class="card-profile col-6">
+                <img src="assets/img-laura.png" alt="Imagen de perfil de Laura Espada">
+                <h2><span class="purple">Laura Espada</span></h2>
+                <h2>Analista de Datos y Business Intelligence</h2>
+                <p>Laura se sumerge en el mundo de los datos con una maestría incomparable. Como analista de datos y 
+                    experta en Business Intelligence, utiliza herramientas avanzadas para extraer conocimientos, 
+                    proporcionando información clave para futuras decisiones.</p>
+                <div class="icon-container">
+                    <a href="https://www.facebook.com" target="_blank"><button class="icon-social"><img src="assets/facebook.png" class="icon-social"></button></a>
+                    <a href="https://www.twitter.com" target="_blank"><button class="icon-social"><img src="assets/twitter.png" class="icon-social"></button></a>
+                    <a href="https://www.linkedin.com" target="_blank"><button class="icon-social"><img src="assets/linkedin.png" class="icon-social"></button></a>
+                </div>
+            </div>
+            <div class="card-profile col-6">
+                <img src="assets/img-desi.png" alt="Imagen de perfil de Desirée Carrizosa">
+                <h2><span class="purple">Desirée Carrizosa</span></h2>
+                <h2>Experta en Desarrollo de Software Personalizado</h2>
+                <p>Desirée es nuestra experta en desarrollo de software, destacándose por su habilidad para traducir 
+                    ideas en soluciones técnicas robustas. Su enfoque pragmático y su destreza técnica aseguran la entrega 
+                    de productos innovadores y de alta calidad.</p>
+                <div class="icon-container">
+                    <a href="https://www.facebook.com" target="_blank"><button class="icon-social"><img src="assets/facebook.png" class="icon-social"></button></a>
+                    <a href="https://www.twitter.com" target="_blank"><button class="icon-social"><img src="assets/twitter.png" class="icon-social"></button></a>
+                    <a href="https://www.linkedin.com" target="_blank"><button class="icon-social"><img src="assets/linkedin.png" class="icon-social"></button></a>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+      <!-- footer -->
+    <section class="footer">
+    
+        <div class="row top-footer">
+            <div class="col-6 left-footer">
+            
+                <img src="/assets/logo_entero_blanco.png" alt="logotipo de nuestra empresa InnovaTech Solutions" class="img-logo-footer">
+
+            </div>
+        
+            <div class="row col-6 right-footer">
+
+                <div class="col-4 text-1-footer">
+                    <p class="title-footer">COMPAÑÍA</p><p class="text-column-footer">Home</p><p class="text-column-footer">Presupuesto</p><p class="text-column-footer">Sobre nosotros</p>
+                </div>
+
+                <div class="col-4 text-2-footer">
+                    <p class="title-footer">PRODUCTO</p><p class="text-column-footer">Noticias</p><p class="text-column-footer">Prensa</p><p class="text-column-footer">Descargar Chrome Extension</p>
+                </div>
+
+                <div class="col-4 text-3-footer">
+                    <p class="title-footer">PRIVACIDAD</p><p class="text-column-footer">Seguridad</p><p class="text-column-footer">Política</p><img src="/assets/social icons.png" alt="iconos de redes sociales" class="iconsFooter">
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <hr class="line-copyright">
+            <p class="copyright">@Copyright 2023 InnovaTech Solutions</p>            
         </div>
     </section>
-    
+
+    <div id="scrollToTopBtn" class="scroll-to-top-btn">&uarr;</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
