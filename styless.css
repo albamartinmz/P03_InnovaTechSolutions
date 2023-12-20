@@ -187,7 +187,7 @@ body {
     .descriptiveText {
         color: #fff;
         font-family: "Roboto";
-        font-size: 0.8em;
+        font-size: 0.8rem;
         font-weight: 500;
         width: 40vw;
         margin: 0vh 12vw;
@@ -271,11 +271,11 @@ body {
         color: #FFFFFF;
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 900;
         line-height: 40px;
-        padding: 2% 2%;
+        padding: 0% 2%;
         justify-content: center;
     }
     
@@ -380,7 +380,7 @@ body {
         color: #FCFCFD;
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 900;
         line-height: 40px;
@@ -393,7 +393,7 @@ body {
         font-family: 'Roboto', sans-serif;
         color: #FCFCFD;
         text-align: center;
-        font-size: 16px;
+        font-size: 1rem;
         padding-left: 13%;
         padding-right: 13%;
     }
@@ -712,7 +712,7 @@ body {
         font-family: "Nunito";
         font-weight: 900;
         text-align: center;
-        margin: 0vh 3vw;
+        margin: 0vh 4vw;
     }
     
     /* Estilo para el texto blanco */
@@ -784,7 +784,6 @@ body {
     .icon {
         display: grid;
         justify-items: auto;
-        margin: auto;
         line-height: 0vh;
     }
     
